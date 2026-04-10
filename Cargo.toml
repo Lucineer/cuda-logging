@@ -1,0 +1,8 @@
+[package]
+name = "cuda-logging"
+version = "0.1.0"
+edition = "2021"
+description = "Structured logging — leveled output, context propagation, log rotation, filtering, and agent-aware log management"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
